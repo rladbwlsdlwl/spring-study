@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Optional;
 
-@Repository
+//@Repository
 public class MemoryMemberRepository implements MemberRepository {
     static HashMap<Long, Member> user = new HashMap<>();
     static Long sequence = 0L; // hash key
